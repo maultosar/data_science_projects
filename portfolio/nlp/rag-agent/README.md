@@ -1,12 +1,11 @@
-# Psychotherapy RAG and Web Agent
+# Local Psychotherapy RAG and Web Agent
 
-Psy AI is an agent that leverages AI to provide insights based on user input. It combines deep knowledge in psychology, psychotherapy, and psychiatry with the ability to retrieve external information from local knowledge base using RAG and also web sources when required.
+Psy AI is an agent that leverages local Ollama Llama 3.1 8b model together with RAG and web capabilites to provide insights based on user input. Its prompting is optimized to psychology, psychotherapy, and psychiatry to help user in most professional yet caring manner.
 
 ## How It Works
 
-### Agent (`agent.py`)
-
-The Psy AI assistant uses predefined prompts and actions to understand user input. It can clarify the user’s intent, retrieve information from local knowledge (RAG), or perform web searches to enrich its responses.
+### Local Ollama Llama3.1 8b Agent (`agent.py`)
+The Psy AI assistant is built using the locally hosted Ollama Llama 3.1 8b model, which serves as the foundational language model for the system. Tests were conducted using Nvidia Geforce RTX 4090, which provided low latency during model interactions. If you wish, you can substitute default model to any desired one whether based on API or local.
 
 ### LangGraph Architecture
 
