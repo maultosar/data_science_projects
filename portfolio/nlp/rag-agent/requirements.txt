@@ -1,0 +1,10 @@
+streamlit
+chromadb
+llama-index
+langchain-core
+tavily
+IPython
+ast
+pathlib
+os
+typing
