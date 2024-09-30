@@ -1,2 +1,9 @@
 .idea
 .databricks
+.streamlit
+.env
+.vscode
+chroma_db
+__pycache__
+default.sqlite
+merging_index

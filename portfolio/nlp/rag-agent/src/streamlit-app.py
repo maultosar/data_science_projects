@@ -8,7 +8,7 @@ config = {"configurable": {"thread_id": "1"}}
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
-    st.session_state.agent = PsyAgent(config, debug=True)
+    st.session_state.agent = PsyAgent(config, knowledge_retrieval=False, debug=True)
 
 session_agent = st.session_state.agent
 session_messages = st.session_state.messages
